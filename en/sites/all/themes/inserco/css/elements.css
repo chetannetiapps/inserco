@@ -1,0 +1,241 @@
+/*@charset "utf-8";
+ CSS Document 
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ change colours to suit your needs 
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+ change colours to suit your needs 
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}*/
+
+
+
+
+
+/* My CSS */
+
+body{
+	background:url('../images/body_top.jpg');
+	background-repeat: repeat-x;
+	background-attachment:fixed;
+}
+.print-link{
+	margin-right: 12px;
+    margin-top: 0px;
+}
+
+ul .inline{display:none;
+}
+
+.panels-flexible-region-1-left .pane-1{
+	background: url("../images/arrow.jpg") no-repeat scroll 125px 49px #EDFCFF;
+    border: 1px solid #E2E2E2;
+    float: left;
+    height: 108px;
+    margin-bottom: 5px;
+    width: 303px;
+}
+
+.pane-publication{
+	float:left;
+}
+
+#now p,#then p{
+	font-weight:bold;
+    margin: 0;
+  	padding: 9px 9px 0;
+    text-align: center;
+	color:#027b0a;
+	font-size:16px;
+}
+
+#then{
+	padding-right:27px;
+}
+
+.pane-menu-menu-resources ul li{
+	line-height:40px;
+}
+
+.pane-news-slider {
+	height:410px;
+}
+
+#top-menu{
+	height:40px;
+}
+
+#block-superfish-1 ul li{
+	padding: 10px 11px;
+}
+
+#block-block-6{
+	 width: 265px;
+	 float: left;
+	  margin-left:11px;
+	  height: 186px;
+}
+
+#block-block-6 img{
+	width:269px;
+}
+
+#block-views-in-action-block{
+	background: none repeat scroll 0 0 #EDFCFF;
+    border: 1px solid #E2E2E2;
+    float: left;
+    height: 124px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+    margin-top: 18px;
+    width: 265px;
+}
+
+#block-views-in-action-block h2 {
+    background-color: #D5F2FD;
+    color: #144A74;
+    font-family: "Open Sans",sans-serif;
+    font-size: 17px;
+    padding: 7px 9px;
+	margin:0px;
+}
+
+#content_leftpanel h3{
+font-size: 15px;
+font-weight: bold;
+color:#476DD0;
+margin-bottom: 9px;
+}
+
+#content_leftpanel p a{
+	text-decoration:none;
+	color:#EE1515;
+}
+
+#content_leftpanel p a:hover{
+	color:#007fcd;
+	text-decoration:underline;
+}
+
+/*#content_leftpanel table {
+    border: 1px solid #CCCCCC;
+   color: #555555;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#content_leftpanel thead tr {
+    background: none repeat scroll 0 0 #E9EAEA;
+    border-bottom: 0px solid #C4C4C4;
+    height: 42px;
+    padding-left: 5px;
+}
+
+#content_leftpanel th {
+    border-bottom: 1px solid #C7C7C7;
+    border-left: 1px solid #CCCCCC;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: auto;
+}
+
+#content_leftpanel td {
+background: none repeat scroll 0 0 #F0F1F1;
+border-left: 1px solid #CCCCCC;
+vertical-align: middle;
+padding-left: 14px;
+padding-top: 5px;
+padding-bottom: 5px;
+}*/
+
+.silk_product_list hr{
+border: dotted 1px #999;
+margin-bottom: 30px;
+}
+
+.silk_product_list td.title {
+padding-left: 15px;
+font-weight: bold;
+}
+
+.past_awardees{
+background-image: url(../images/awards.jpg);
+background-position: 0px 0px;
+background-repeat: no-repeat;
+height: 14px;
+padding: 14px 39px 24px;
+}
+

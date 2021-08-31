@@ -1,0 +1,24 @@
+
+name = Inserco
+description = Theme implementation for Inserco
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/elements.css
+stylesheets[all][] = css/typography.css
+stylesheets[all][] = css/layout.css
+stylesheets[print][] = css/print.css
+
+#blinking notification
+#scripts[] = js/inserco.js
+
+regions[header_right_block] = Header Right Block
+regions[main_menu_block] = Top Menu Block
+regions[content] = Content
+regions[content_right] = Content Right panel
+regions[country_list_block] = Country List
+regions[footer_block] = Footer Block
+
+settings[shortcut_module_link] = 0
